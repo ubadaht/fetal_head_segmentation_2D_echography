@@ -1,5 +1,20 @@
 # fetal_head_segmentation_2D_echography
-Automatic segmentation of the fetus head from 2-D echography in standard axial planes. 
 
-1330 2-D echographic images acquired in https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0200412  Thomas L. A. van den Heuvel, Dagmar de Bruijn, Chris L. de Korte and Bram van Ginneken. Automated measurement of fetal head 
-circumference using 2D ultrasound images. PloS one, 13.8 (2018): e0200412. 
+Automatic segmentation of the fetal head from **2-D ultrasound (echography)** images acquired in **standard axial planes**.
+- Automatically segment the fetal head from 2-D ultrasound images using MatLab Computer Vision Toolbox
+
+---
+
+## Dataset
+
+The dataset consists of **1330 2-D echographic images** of fetal heads.
+
+The images originate from the study:
+
+> Thomas L. A. van den Heuvel, Dagmar de Bruijn, Chris L. de Korte, and Bram van Ginneken.  
+> **“Automated measurement of fetal head circumference using 2D ultrasound images.”**  
+> *PLOS ONE*, 13(8): e0200412, 2018.  
+> https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0200412
+
+Refer to the original paper for acquisition protocol and annotation details.
+**The original dataset and study are not authored by the repository owner.**
