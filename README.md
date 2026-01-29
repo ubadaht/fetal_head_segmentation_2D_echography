@@ -1,7 +1,6 @@
 # fetal_head_segmentation_2D_echography
 
 Automatic segmentation of the fetal head from **2-D ultrasound (echography)** images acquired in **standard axial planes**.
-- Automatically segment the fetal head from 2-D ultrasound images using MatLab Computer Vision Toolbox
 
 ---
 
@@ -16,5 +15,5 @@ The images originate from the study:
 > *PLOS ONE*, 13(8): e0200412, 2018.  
 > https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0200412
 
-Refer to the original paper for acquisition protocol and annotation details.
+Refer to the original paper for acquisition protocol and hardware details.
 **The original dataset and study are not authored by the repository owner.**
