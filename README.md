@@ -2,6 +2,18 @@
 
 Automatic segmentation of the fetal head from **2-D ultrasound (echography)** images acquired in **standard axial planes**.
 
+## Model
+
+![U-Net architecture](results/unet_architecture.png)
+
+## Training
+
+![Training curve](results/training_progress.png)
+
+## Inference Results
+
+![Segmentation results](results/test_results.png)
+
 ---
 
 ## Dataset
