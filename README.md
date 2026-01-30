@@ -3,6 +3,27 @@
 Automatic segmentation of the fetal head from **2-D ultrasound (echography)** images acquired in **standard axial planes**.
 
 ## Model
+Input (1×80×128)
+    ↓
+[Encoder Block 1] ────────────┐  (skip connection)
+    ↓ MaxPool                 │
+[Encoder Block 2] ──────┐     │
+    ↓ MaxPool           │     │
+[Encoder Block 3] ──┐   │     │
+    ↓ MaxPool       │   │     │
+[Encoder Block 4] ┐ │   │     │
+    ↓ MaxPool     │ │   │     │
+  [Bottleneck]    │ │   │     │
+    ↓ Upsample    │ │   │     │
+[Decoder Block 4]─┘ │   │     │
+    ↓ Upsample      │   │     │
+[Decoder Block 3]───┘   │     │
+    ↓ Upsample          │     │
+[Decoder Block 2]───────┘     │
+    ↓ Upsample                │
+[Decoder Block 1]─────────────┘
+    ↓
+Output (2×80×128)
 
 ![U-Net architecture](results/unet_architecture.png)
 
